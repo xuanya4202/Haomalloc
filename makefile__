@@ -1,0 +1,2 @@
+gcc -shared -o libhaomalloc.a -c haomalloc.c
+gcc -g c1.c -L ./ libhaomalloc.a
